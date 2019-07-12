@@ -5,7 +5,7 @@
 ### Table of Contents
 
 | No. | Questions |
-|---- | ---------
+|---- | ---------|
 
 |1    | [What is Computer programming?	](# )|
 |1    | [How programming work?	](# )|
