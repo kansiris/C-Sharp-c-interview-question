@@ -6,7 +6,6 @@
 
 | No. | Questions |
 |---- | ---------|
-
 |1    | [What is Computer programming?	](# )|
 |1    | [How programming work?	](# )|
 |1    | [What is debugging?	](# )|
