@@ -614,11 +614,17 @@ Give the syntax of using the while loop in a C# program.
 The syntax of using the while loop in C# is: 
 
 int i = 0; 
+
 while(i < 5) //condition 
+
 { 
- Console.WriteLine({ 0 }, i); //statements 
- i++; 
+
+Console.WriteLine({ 0 }, i); //statements 
+
+i++; 
+
 } 
+
 
 o/p: 0 1 2 3 4
 
@@ -854,11 +860,13 @@ An abstract class can have fields and constraints defined
 
 ### Question: What is enum in C#?
     
-    • An enum is a value type with a set of related named constants often referred to as an enumerator list. The enum keyword is used to declare an enumeration. It is a primitive data type, which is user defined.
+ An enum is a value type with a set of related named constants often referred to as an enumerator list. The enum keyword is used to declare an enumeration. It is a primitive data type, which is user defined.
     
-    • An enum type can be an integer (float, int, byte, double etc.). But if you used beside int it has to be cast.
+
+An enum type can be an integer (float, int, byte, double etc.). But if you used beside int it has to be cast.
     
-    • An enum is used to create numeric constants in .NET framework. All the members of enum are of enum type. There must be a numeric value for each enum type.
+
+An enum is used to create numeric constants in .NET framework. All the members of enum are of enum type. There must be a numeric value for each enum type.
 
 The default underlying type of the enumeration element is int. By default, the first enumerator has the value 0, and the value of each successive enumerator is increased by 1.
 
@@ -890,19 +898,28 @@ Using break statement, you can 'jump out of a loop' whereas by using continue st
 Break Statement Example-
 
 using System;
+
 using System.Collections;
+
 using System.Linq;
+
 using System.Text;
+
 namespace break_example 
 
 {
 {
 Class brk_stmt 
 {
+
 public static void main(String[] args) {
+
 for (int i = 0; i <= 5; i++) {
+
 if (i == 4) {continue;  }
+
 Console.ReadLine(“The number is” + i); 
+
 }
 }
 }
@@ -917,23 +934,38 @@ The number is 3;
 Continue Statement Example
 
 using System;
+
 using System.Collections;
+
 using System.Linq;
+
 using System.Text;
+
 namespace continue_example
+
 {
 Class cntnu_stmt
+
 {
 public static void main(String[]
+
 {
 for (int i = 0; i <= 5; i++)
+
 {
+
 if (i == 4)
+
 {
+
 continue; 
+
 }
+
 Console.ReadLine(“The number is” +i); 
+
 } 
+
 }
 } 
 }
@@ -969,13 +1001,20 @@ See the example
 
 We have a Test Class in which we have two variables one is readonly and another is constant.
 
-class Test {  readonly int read = 10;const int cons = 10;
+
+class Test { 
+
+readonly int read = 10;const int cons = 10;
+
 
 public Test() { read = 100;  cons = 100; }
 
+
 public void Check() {  Console.WriteLine("Read only : {0}", read);
 
+
 Console.WriteLine("const : {0}", cons);
+
 
 }
 }
@@ -989,15 +1028,28 @@ Here I was trying to change the value of both the variables in constructor but w
 So finally remove that line of code from class and call this Check() function like the following code snippet:
 
 class Program {
+
 static void Main(string[] args) {
+
 Test obj = new Test();   obj.Check();   Console.ReadLine();
+
 }
 }
+
 class Test {
-readonly int read = 10;const int cons = 10;
+
+readonly int read = 10;
+
+const int cons = 10;
+
 public Test() { read = 100;}
+
 public void Check() {
-Console.WriteLine("Read only : {0}", read);  Console.WriteLine("const : {0}", cons);
+
+Console.WriteLine("Read only : {0}", read); 
+
+Console.WriteLine("const : {0}", cons);
+
 }
 }
 
@@ -1014,16 +1066,28 @@ properties are not variables, therefore it cannot be passed as an out or ref par
 
 Ref
 
-Out
 The parameter or argument must be initialization first before it is passed to ref
-It is compulsory to initialize a parameter or argument before it is passed to an out
-It is not required to assign or initialize the value of a parameter(which is passed by ref ) before returning to the calling method 
+
 A called method is required to assign or initialize a value of a parameter (which is passed to an out)before returning to the calling method
+
 Passing a parameter value by ref is useful when the called method is also needed to modify the pass parameter
-Declaring a parameter to an out method is when multiple values need to be returned for function or method
-It is not compulsory to initialize a parameter value before using it in a calling method
+
+
 A parameter value must be initialized within calling method before its use
+
 When we use ref data can be passed bidirectionally
+
+
+Out
+
+It is compulsory to initialize a parameter or argument before it is passed to an out
+
+It is not required to assign or initialize the value of a parameter(which is passed by ref ) before returning to the calling method 
+
+Declaring a parameter to an out method is when multiple values need to be returned for function or method
+
+It is not compulsory to initialize a parameter value before using it in a calling method
+
 When we use out data is passed only in unidirectional way (from the called method caller )
 
 ### Question: Can “this” be used within a static method?
@@ -1037,8 +1101,11 @@ The "this" keyword is a special type of reference variable that is implicitly de
 Let me explain you with a simple practical demonstration.
 
 using System;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Text;
 
 namespace this_example
@@ -1091,8 +1158,11 @@ We have to use this keyword to refer to the instance members.
 Now I do a slight change in the program using this keyword.
 
 using System;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Text;
 
 namespace this_example
@@ -1186,6 +1256,7 @@ let’s see how to use this function.
 
 
 Code will look like that:
+
 class Program {
 
 static void Main(string[] args) {
@@ -1199,12 +1270,13 @@ Output will be:
 
 
 
-Question: What is the difference between string and StringBuilder in c#?
+### Question: What is the difference between string and StringBuilder in c#?
 
 StringBuilder and string both use to store string value but both have many differences on the bases of instance creation and also for 
 performance:
 
 String: 
+
 String is an immutable object. Immutable like when we create string object in code so we cannot modify or change that object in any 
 operations like insert new value, replace or append any value with existing value in string object, when we have to do some operations 
 to change string simply it will dispose the old value of string object and it will create new instance in memory for hold the new value 
@@ -1221,6 +1293,7 @@ val += “am”;
 val +=”nithin pandit”;
 
 console.writeline(val);
+
 }
 }
 
@@ -1240,32 +1313,49 @@ without creating new instance of System.Text.Stringbuilder for every time so it�
 than System.String. Let’s have an example to understand System.Text.Stringbuilder like:
 
 class program
+
 {
 static void main(string[]args)
 {
+
 stringbuilder val =new stringbuilder(“”);
+
 val.append(“hello);
+
 val.append(“am nitin pandit:)”);
+
 console.writeline(val);}}
 
 Note:
-    • StringBuilder is a mutable object.
-    • Performance wise StringBuilder is very fast because it will use same instance of StringBuilder object to perform any operation like insert value in existing string.
-    • StringBuilder belongs to System.Text.Stringbuilder namespace.
+
+• StringBuilder is a mutable object.
+
+• Performance wise StringBuilder is very fast because it will use same instance of StringBuilder object to perform any operation like insert value in existing string.
+
+• StringBuilder belongs to System.Text.Stringbuilder namespace.
 
 String Example
+
 string colors;
+
 colors += "red";
+
 colors += "blue";
+
 colors += "green";
 
 In the above code string color will alter 3 times, each time the code perform a string operation (+=). That mean 3 new string created in the memory. When you perform repeated operation to a string, the overhead associated with creating a new String object can be costly.
 
 StringBuilder Example
+
 StringBuilder sb = new StringBuilder("");
+
 sb.Append("red");
+
 sb.Append("blue");
+
 sb.Append("green ");
+
 string colors = sb.ToString();
 
 In the above code the StringBuilder object will alter 3 times, each time the code attempt a StringBuilder operation without creating a new object. That means, using the StringBuilder class can boost performance when concatenating many strings together in a loop.
@@ -1273,6 +1363,7 @@ In the above code the StringBuilder object will alter 3 times, each time the cod
 ### Question: What are delegates in C# and uses of delegates?
 
 A delegate object encapsulates a reference to a method. 
+
 C# delegates are same as pointers to functions, in C or C++. A delegate Object is a reference type variable that use to holds the 
 reference to a method. The reference can be changed at runtime which is hold by an object of delegate, a delegate object can hold many 
 functions reference which is also known as Invocation List that refers functions in a sequence FIFO, we can new functions ref in this 
@@ -1280,6 +1371,7 @@ list at run time by += operator and can remove by -= operator.
 
 Delegates are especially used for implementing events and the call-back methods. All delegates are implicitly derived from the 
 System.Delegate class.
+
 Let’s see how to use Delegate with Example:
 
 
@@ -1301,6 +1393,7 @@ In C#, the sealed modifier is used to define a class as sealed. In Visual Basic 
 If you have ever noticed, structs are sealed. You cannot derive a class from a struct.
 
 The following class definition defines a sealed class in C#:
+
 // Sealed class
 sealed class SealedClass
 {	}
@@ -1418,21 +1511,37 @@ example:
 interface testInterface1 {
 
 void Show(); }
+
 interface testInterface2 {
+
 void Show(); }
+
 class Abc: testInterface1,
+
 testInterface2 {
+
 void testInterface1.Show() {
+
 Console.WriteLine("For testInterface1 !!");  }
+
 void testInterface2.Show() {
+
 Console.WriteLine("For testInterface2 !!"); }}
+
 Now see how to use those in a class:
+
 class Program {
+
 static void Main(string[] args) {
+
 testInterface1 obj1 = new Abc();
+
 testInterface1 obj2 = new Abc();
+
 obj1.Show();
+
 obj2.Show();
+
 Console.ReadLine();  } }
 
 
@@ -1452,11 +1561,16 @@ An array contains zero or more items called elements. An array is an unordered s
 Elements are identified by indexes relative to the beginning of the arrays. Indexes are also commonly called indices or subscripts and are placed inside the indexing operator ([]). Access to array elements is by their index value that ranges from 0 to (length-1).
 
 Array Properties
-    • The length cannot be changed once created.
-    • Elements are initialized to default values.
-    • Arrays are reference types and are instances of System.Array.
-    • Their number of dimensions or ranks can be determined by the Rank property.
-    • An array length can be determined by the GetLength() method or Length property.
+
+• The length cannot be changed once created.
+
+• Elements are initialized to default values.
+
+• Arrays are reference types and are instances of System.Array.
+
+• Their number of dimensions or ranks can be determined by the Rank property.
+
+• An array length can be determined by the GetLength() method or Length property.
 
 ### Question : What is the Constructor Chaining in C#?
 
@@ -1473,18 +1587,31 @@ CopyTo - The Copy static method of the Array class copies a section of an array 
 We can use multiple Catches block with every try but when any Exceptions is throw by debugger so every catches match this exception type with their signature and catch the exception by any single catch block so that means we can use multiple catches blocks but only one can executed at once like:
 
 using System;
+
 class MyClient {
+
 public static void Main() {
+
 int x = 0;
+
 int div = 0;
+
 try {div = 100 / x;
+
 Console.WriteLine("Not executed line");
+
 } catch (DivideByZeroException de) {
+
 Console.WriteLine("DivideByZeroException");
+
 } catch (Exception ee) {
+
 Console.WriteLine("Exception");
+
 } finally {
+
 Console.WriteLine("Finally Block"); }
+
 Console.WriteLine("Result is {0}", div); } }
 
 ### Question : Difference between Throw Exception and Throw Clause.
@@ -1495,21 +1622,38 @@ Throw basically retains the stack information and adds to the stack information 
 Let us see what it means rather speaking so many words to better understand the differences. I am using a console application to easily test and see how the usage of the two differs in their functionality.
 
 using System;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Text;
+
 namespace TestingThrowExceptions {
+
 class Program {
+
 public void ExceptionMethod() {
+
 throw new Exception("Original Exception occurred in ExceptionMethod"); 
+
 }
+
 static void Main(string[] args) {
+
 Program p = new Program();
-try {p.ExceptionMethod();  } catch (Exception ex) { throw ex;  
+
+try {p.ExceptionMethod();  }
+
+catch (Exception ex) { 
+
+throw ex;  
+
 }
 }
 } 
 }
+
 Now run the code by pressing the F5 key of the keyboard and see what happens. It returns an exception 
 
 ### Question : What is Indexer in C# .Net?
@@ -1521,11 +1665,20 @@ An indexer, also called an indexed property, is a class property that allows you
 Defining an indexer allows you to create classes that act like virtual arrays. Instances of that class can be accessed using the [] array access operator.
 
 Creating an Indexer:
-< modifier > <return type > this[argument list] {
-get {// your get block code}set {// your set block code}}
+
+< modifier >
+
+<return type >
+	
+this[argument list] {
+
+get {// your get block code}
+
+set {// your set block code}}
 	
 In the above code:
 <modifier> - can be private, public, protected or internal.
+
 <return type> - can be any valid C# types.
 
 ### Question : What is multicast delegate in c#?
@@ -1540,24 +1693,43 @@ Delegate can invoke only one method reference has been encapsulated into the del
 Implement Multicast Delegates Example:
 
 	using System;
+	
 	using System.Collections.Generic;
+	
 	using System.Linq;
+	
 	using System.Text;
+	
 	delegate void MDelegate();
+	
 	class DM {
+	
 	static public void Display() {
+	
 	Console.WriteLine("Meerut")   }
+	
 	static public void print() {
+	
 	Console.WriteLine("Roorkee"); } 	}
+	
 	class MTest {
+	
 	public static void Main() {
+	
 	MDelegate m1 = new MDelegate(DM.Display);
+	
 	MDelegate m2 = new MDelegate(DM.print);
+	
 	MDelegate m3 = m1 + m2;
+	
 	MDelegate m4 = m2 + m1;
+	
 	MDelegate m5 = m3 - m2;
+	
 	m3(); 	m4(); 	m5();
+	
 	} 
+	
 	}
 
 ### Question : Difference between Equality Operator (==) and Equals() Method in C#.
@@ -1566,14 +1738,23 @@ Both the == Operator and the Equals() method are used to compare two value type 
 In this example we assigned a string variable to another variable. A string is a reference type and in the following example, a string variable is assigned to another string variable so they are referring to the same identity in the heap and both have the same content so you get True output for both the == Operator and the Equals() method.
 
 	using System;
+	
 	namespace ComparisionExample {
+	
 	class Program {
+	
 	static void Main(string[] args) {
-	string name = "sandeep";
+	
+	string name = "Kansiris";
+	
 	string myName = name;
+	
 	Console.WriteLine("== operator result is {0}", name == myName);
+	
 	Console.WriteLine("Equals method result is {0}", name.Equals(myName));
+	
 	Console.ReadKey(); 
+	
 	} 
 	}	
 	}
