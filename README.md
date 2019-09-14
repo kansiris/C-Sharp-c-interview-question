@@ -156,74 +156,72 @@
 |148    | [What does the keyword virtual mean in the method definition?	](# )|
 |149    | [Can you declare the override method static while the original method is non-static?	](# )|
 |150    | [Can you override private virtual methods?	](# )|
-|1    | [When do you absolutely have to declare a class as abstract (as opposed to free-willed educated choice or decision based on UML diagram)?	](# )|
-|1    | [Why can’t you specify the accessibility modifier for methods inside the interface?	](# )|
-|1    | [And if they have conflicting method names?	](# )|
-|1    | [If a base class has a bunch of overloaded constructors, and an inherited class has another bunch of overloaded constructors, can you enforce a call from an inherited constructor to an arbitrary base constructor?	](# )|
-|1    | [Is it namespace class or class namespace?	](# )|
-|1    | [What is the difference between ToString() and Convert.ToString()?	](# )|
-|1    | [What is the Difference between int.Parse() and Convert.ToInt32()?	](# )|
-|1    | [What is checked block and unchecked block?	](# )|
-|1    | [Write a program to get the range of Byte Datatype?	](# )|
-|1    | [What is the difference between typeOf() and sizeOf()?	](# )|
-|1    | [What is widening and Narrowing?	](# )|
-|1    | [How to view an Assembly?	](# )|
-|1    | [How to implement Reflection in .Net?	](# )|
-|1    | [What are MultiLingual Applications?	](# )|
-|1    | [What is the difference between = and ==	](# )|
-|1    | [What is the use of Codesnippets?	](# )|
-|1    | [What is the difference between Array and Collections?	](# )|
-|1    | [What is the default Accessmodifier for the members of the class?	](# )|
-|1    | [What is the use of constructor?	](# )|
-|1    | [When the static constructor will be called?	](# )|
-|1    | [ Can we declare Public accessmodifier for static constructor?	](# )|
-|1    | [if we declare Main() and static constructor in the same class  which one will be called first?](# )|
-|1    | [How to Call the Default constructor of one class with the parameterised constructor of same class?	](# )|
-|1    | [How to access the constructors of one class to another class?	](# )|
-|1    | [Does C#.net Supports Multiple inheritance?	](# )|
-|1    | [How to acheive Multiple inheritance in C#.NET?	](# )|
-|1    | [what is OverLoading?	](# )|
-|1    | [what is Overriding?	](# )|
-|1    | [what is use of Properties?	](# )|
-|1    | [what is the Difference between Event and Method?	](# )|
-|1    | [what are Generics?	](# )|
-|1    | [Does generics supports Arthimetic Operators ?	](# )|
-|1    | [what is Dynamic Dispatch?	](# )|
-|1    | [Which of the following are Build in generic Types?	](# )|
-|1    | [In .net for Assemblies we are having StrongName lly in COM Components  what is the Strongname?	](# )|
-|1    | [Is Versioning applicable to Private assemblies?	](# )|
-|1    | [Does .net supports Cross Language Interoparability in CAS?	](# )|
-|1    | [What is the importance of “this”keyword? ](# )|
-|1    | [C# program to print prime numbers	](# )|
-|1    | [C# program to print even numbers	](# )|
-|1    | [C# program to print fibonacci series](# )|
-|1    | [Palindrome program in C#	](# )|
-|1    | [Armstrong Number in C#	 ](# )|
-|1    | [C# Program to reverse number	](# )|
-|1    | [C# Program to generate Fibonacci Triangle	](# )|
-|1    | [C# Program to Convert Number in Characters	](# )|
-|1    | [C# Program to print Number Triangle	](# )|
-|1    | [C# Program to swap two numbers without third variable	](# )|
-|1    | [Program 2: Using + and -	](# )|
-|1    | [Decimal to Binary Conversion Algorithm](# )|
-|1    | [C# Program to Convert Number in Characters	](# )|
-|1    | [C# program to print multiplication table	](# )|
-|1    | [C# program to print alphabets	](# )|
-|1    | [Power function in C#	](# )|
-|1    | [C# program to count emails by domain	](# )|
-|1    | [Reverse characters in a string	](# )|
-|1    | [C# program to sort names in ascending and descending order	](# )|
-|1    | [C# program to remove duplicates	](# )|
-|1    | [Insert space before every upper case letter in a string	](# )|
-|1    | [Write a c# program to add two numbers.	](# )|
-|1    | [Find smallest and largest number in an integer array	](# )|
-|1    | [C# Program to compute factorial of a number	](# )|
-|1    | [How to get the total number of decimal places using c#	](# )|
-|1    | [How to remove trailing zeros in a decimal - C# Program?	](# )|
-|1    | [Write a c program to print M pattern?] (# )|
-|1    | [Write the o/p for the below program?	](# )|
-
-
+|151    | [When do you absolutely have to declare a class as abstract (as opposed to free-willed educated choice or decision based on UML diagram)?	](# )|
+|152    | [Why can’t you specify the accessibility modifier for methods inside the interface?	](# )|
+|153    | [And if they have conflicting method names?	](# )|
+|154    | [If a base class has a bunch of overloaded constructors, and an inherited class has another bunch of overloaded constructors, can you enforce a call from an inherited constructor to an arbitrary base constructor?	](# )|
+|155    | [Is it namespace class or class namespace?	](# )|
+|156    | [What is the difference between ToString() and Convert.ToString()?	](# )|
+|157    | [What is the Difference between int.Parse() and Convert.ToInt32()?	](# )|
+|158    | [What is checked block and unchecked block?	](# )|
+|159    | [Write a program to get the range of Byte Datatype?	](# )|
+|160    | [What is the difference between typeOf() and sizeOf()?	](# )|
+|161    | [What is widening and Narrowing?	](# )|
+|162    | [How to view an Assembly?	](# )|
+|163    | [How to implement Reflection in .Net?	](# )|
+|164    | [What are MultiLingual Applications?	](# )|
+|165    | [What is the difference between = and ==	](# )|
+|166    | [What is the use of Codesnippets?	](# )|
+|167    | [What is the difference between Array and Collections?	](# )|
+|168    | [What is the default Accessmodifier for the members of the class?	](# )|
+|169    | [What is the use of constructor?	](# )|
+|170    | [When the static constructor will be called?	](# )|
+|171    | [ Can we declare Public accessmodifier for static constructor?	](# )|
+|172    | [if we declare Main() and static constructor in the same class  which one will be called first?](# )|
+|173    | [How to Call the Default constructor of one class with the parameterised constructor of same class?	](# )|
+|174    | [How to access the constructors of one class to another class?	](# )|
+|175    | [Does C#.net Supports Multiple inheritance?	](# )|
+|176    | [How to acheive Multiple inheritance in C#.NET?	](# )|
+|177    | [what is OverLoading?	](# )|
+|178    | [what is Overriding?	](# )|
+|179    | [what is use of Properties?	](# )|
+|180    | [what is the Difference between Event and Method?	](# )|
+|181    | [what are Generics?	](# )|
+|182    | [Does generics supports Arthimetic Operators ?	](# )|
+|183    | [what is Dynamic Dispatch?	](# )|
+|184    | [Which of the following are Build in generic Types?	](# )|
+|185    | [In .net for Assemblies we are having StrongName lly in COM Components  what is the Strongname?	](# )|
+|186    | [Is Versioning applicable to Private assemblies?	](# )|
+|187    | [Does .net supports Cross Language Interoparability in CAS?	](# )|
+|188    | [What is the importance of “this”keyword? ](# )|
+|189    | [C# program to print prime numbers	](# )|
+|190    | [C# program to print even numbers	](# )|
+|191    | [C# program to print fibonacci series](# )|
+|192    | [Palindrome program in C#	](# )|
+|193    | [Armstrong Number in C#	 ](# )|
+|194    | [C# Program to reverse number	](# )|
+|195    | [C# Program to generate Fibonacci Triangle	](# )|
+|196    | [C# Program to Convert Number in Characters	](# )|
+|197    | [C# Program to print Number Triangle	](# )|
+|198    | [C# Program to swap two numbers without third variable	](# )|
+|199    | [Program 2: Using + and -	](# )|
+|200    | [Decimal to Binary Conversion Algorithm](# )|
+|201    | [C# Program to Convert Number in Characters	](# )|
+|202    | [C# program to print multiplication table	](# )|
+|203   | [C# program to print alphabets	](# )|
+|204  | [Power function in C#	](# )|
+|205   | [C# program to count emails by domain	](# )|
+|206  | [Reverse characters in a string	](# )|
+|207   | [C# program to sort names in ascending and descending order	](# )|
+|208  | [C# program to remove duplicates	](# )|
+|209  | [Insert space before every upper case letter in a string	](# )|
+|210  | [Write a c# program to add two numbers.	](# )|
+|211  | [Find smallest and largest number in an integer array	](# )|
+|212  | [C# Program to compute factorial of a number	](# )|
+|213  | [How to get the total number of decimal places using c#	](# )|
+|214  | [How to remove trailing zeros in a decimal - C# Program?	](# )|
+|215  | [Write a c program to print M pattern?] (# )|
+|216  | [Write the o/p for the below program?	](# )|
 
 
 
