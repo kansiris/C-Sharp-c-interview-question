@@ -7,155 +7,155 @@
 | No. | Questions |
 |---- | ---------|
 |1    | [What is Computer programming?	](# )|
-|1    | [How programming work?	](# )|
-|1    | [What is debugging?	](# )|
-|1    | [Name different types errors which can occur during the execution of a program?	](# )|
-|1    | [When a syntax error occurs?	](# )|
-|1    | [When a runtime error occurs?	](# )|
-|1    | [When a logical error occurs? ](# )|
-|1    | [What is flowchart?	](# )|
-|1    | [What is an algorithm?	](# )|
-|1    | [What do you understand by the term 'Maintain and update the Program'? ](# )|
-|1    | [What are variables?	](# )|
-|1    | [What are reserved words?	](# )|
-|1    | [What are Loop?	](# )|
-|1    | [What is the use of FOR…NEXT Loop? ](# )|
-|1    | [What is the use of WHILE…WEND Loop?	](# )|
-|1    | [What is the use of Nested Loop?	](# )|
-|1    | [What is Documentation?	](# )|
-|1    | [What is the working of a compiler?	](# )|
-|1    | [What do we call the binary form of a target language?	](# )|
-|1    | [What are constants?	](# )|
-|1    | [Define Numeric constants.	](# )|
-|1    | [Define String constants.	](# )|
-|1    | [Define Operators.	](# )|
-|1    | [What is an Array?	](# )|
-|1    | [What is subroutine?	](# )|
-|1    | [What is the purpose of arithmetic operators?	](# )|
-|1    | [What is the purpose of relational operators?	](# )|
-|1    | [Define Low-level programming language.	](# )|
-|1    | [Define High-Level programming language.	](# )|
-|1    | [What is Machine code?	](# )|
-|1    | [List some programming languages.	](# )|
-|1    | [What is reliability?	](# )|
-|1    | [What is modeling language?	](# )|
-|1    | [Name some modeling languages? ](# )|
-|1    | [What is software testing?	](# )|
-|1    | [What is Beta version?	](# )|
-|1    | [What is the working of logical operators?	 ](# )|
-|1    | [What is the purpose of assignment operator? ](# )|
-|1    | [What is analyzing a program?	](# )|
-|1    | [What is the working on an algorithm?	](# )|
-|1    | [How is the division by zero defined?	](# )|
-|1    | [What is the meaning of implementation of a program?	](# )|
-|1    | [What are numeric variables?	](# )|
-|1    | [What are string variables?	](# )|
-|1    | [What are commands?	](# )|
-|1    | [What are statements?	](# )|
-|1    | [What is the execution of a program?	](# )|
-|1    | [Define variable and constant.	](# )|
-|1    | [What is a data type? How many types of data types are there in .NET ?	](# )|
-|1    | [Mention the two major categories that distinctly classify the variables of C# programs.	](# )|
-|1    | [Which statement is used to replace multiple if-else statements in code.	](# )|
-|1    | [What is the syntax to declare a namespace in .NET?	](# )|
-|1    | [Differentiate between the while and for loop in C#.	](# )|
-|1    | [What is an identifier?	](# )|
-|1    | [What does a break statement do in the switch statement?	](# )|
-|1    | [Explain keywords with example.	](# )|
-|1    | [Briefly explain the characteristics of value-type variables that are supported in the C# programming language.	](# )|
-|1    | [What is a parameter? Explain the new types of parameters introduced in C# 4.0.	](# )|
-|1    | [Briefly explain the characteristics of reference-type variables that are supported in the C# programming language.	](# )|
-|1    | [What are the different types of literals?	](# )|
-|1    | [What is the main difference between sub-procedure and function?	](# )|
-|1    | [Differentiate between Boxing and Unboxing. ](# )|
-|1    | [What is C#?	](# )|
-|1    | [What is an Object?	](# )|
-|1    | [What is the difference between a struct and a class in C#?	](# )|
-|1    | [What is the difference between Interface and Abstract Class?	](# )|
-|1    | [What is enum in C#?	](# )|
-|1    | [What is the difference between “continue” and “break” statements in C#?	](# )|
-|1    | [What is the difference between constant and readonly in c#?	](# )|
-|1    | [What is the difference between ref and out keywords?	](# )|
-|1    | [Can “this” be used within a static method?	](# )|	
-|1    | [Define Property in C# .net?	](# )|
-|1    | [What is extension method in c# and how to use them?	](# )|
-|1    | [What is the difference between string and StringBuilder in c#?	](# )|
-|1    | [What are delegates in C# and uses of delegates?	](# )|
-|1    | [What is sealed class in c#?	](# )|
-|1    | [ What are partial classes?	](# )|
-|1    | [ What is IEnumerable<> in c#?	](# )|
-|1    | [ What is difference between late binding and early binding in c#?	](# )|
-|1    | [What are the differences between IEnumerable and IQueryable?	](# )|
-|1    | [What happens if the inherited interfaces have conflicting method names?	](# )|
-|1    | [What are the Arrays in C#.Net?	](# )|
-|1    | [What is the Constructor Chaining in C#?	](# )|
-|1    | [What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?	](# )|
-|1    | [Can Multiple Catch Blocks executed in c#?	](# )|
-|1    | [Difference between Throw Exception and Throw Clause.	](# )|
-|1    | [What is Indexer in C# .Net?	](# )|
-|1    | [What is multicast delegate in c#?	](# )|
-|1    | [Difference between Equality Operator (==) and Equals() Method in C#.	](# )|
-|1    | [Difference between “is” and “as” operator in C#.	](# )|
-|1    | [How to use Nullable<> Types in .Net?	](# )|
-|1    | [Different Ways of Method can be overloaded.	](# )|
-|1    | [What is an Object Pool in .Net?	](# )|
-|1    | [What are generics in c#.net?	](# )|
-|1    | [Describe the accessibility modifiers in c#.Net	](# )|
-|1    | [What is Virtual Method in C#?	](# )|
-|1    | [What is the Difference between Array and ArrayList in C#.Net?	](# )|
-|1    | [What you understand by Value types and Reference types in C#.Net?	](# )|
-|1    | [What is Serialization?	](# )|
-|1    | [What is the use of using statement in C#?	](# )|
-|1    | [What is jagged array in C#.Net?	](# )|
-|1    | [What is Multithreading with .NET?	](# )|
-|1    | [Explain Anonymous type in C#?	](# )|
-|1    | [Explain Hashtable in C#?	](# )|
-|1    | [What is LINQ in C#?	](# )|
-|1    | [What is File Handling in C#.Net?	](# )|
-|1    | [What is Reflection in C#.Net?	](# )|
-|1    | [What is Expression Trees In C#?	](# )|
-|1    | [Differences between Object, Var and Dynamic type?	](# )|
-|1    | [What are OOPS Concepts?	](# )|
-|1    | [How can you implement multiple inheritance in C#?	](# )|
-|1    | [Are private class members inherited to the derived class?	](# )|
-|1    | [When and why to use method overloading	](# )|
-|1    | [Does C# support multiple-inheritance?	](# )|
-|1    | [Where is a protected class-level variable available?	](# )|
-|1    | [Are private class-level variables inherited?	](# )|
-|1    | [Describe the accessibility modifier “protected internal”.	](# )|
-|1    | [Which class is at the top of .NET class hierarchy?	](# )|
-|1    | [What does the term immutable mean?	](# )|
-|1    | [Can you store multiple data types in System.Array?	](# )|
-|1    | [What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?	](# )|
-|1    | [How can you sort the elements of the array in descending order?	](# )|
-|1    | [What’s the .NET collection class that allows an element to be accessed using a unique key? ](# )|
-|1    | [What class is underneath the Sorted List class?	](# )|
-|1    | [Will the finally block get executed if an exception has not occurred?	](# )|
-|1    | [What’s the C# syntax to catch any possible exception?	](# )|
-|1    | [Can multiple catch blocks be executed for a single try statement?	](# )|
-|1    | [Explain the three services model commonly know as a three-tier application?	](# )|
-|1    | [What is the syntax to inherit from a class in C#?	](# )|
-|1    | [Can you prevent your class from being inherited by another class?	](# )|
-|1    | [Can you allow a class to be inherited, but prevent the method from being over-ridden?	](# )|
-|1    | [When do you absolutely have to declare a class as abstract?	](# )|
-|1    | [Why can’t you specify the accessibility modifier for methods inside the interface?	 ](# )|
-|1    | [Can you inherit multiple interfaces?	](# )|
-|1    | [ What happens if you inherit multiple interfaces and they have conflicting method names? ](# )|
-|1    | [What’s the implicit name of the parameter that gets passed into the set method/property of a class?	](# )|
-|1    | [Can you declare an override method to be static if the original method is not static?	](# )|
-|1    | [What are the different ways a method can be overloaded?	](# )|
-|1    | [If a base class has a number of overloaded constructors, and an inheriting class has a number of overloaded constructors; can you enforce a call from an inherited constructor to a specific base constructor?	](# )|
-|1    | [ What’s the implicit name of the parameter that gets passed into the class’ set method?	](# )|
-|1    | [How do you inherit from a class in C#?	](# )|
-|1    | [Does C# support multiple inheritance?	](# )|
-|1    | [ When you inherit a protected class-level variable, who is it available to?	](# )|
-|1    | [ Are private class-level variables inherited?	](# )|
-|1    | [ Describe the accessibility modifier protected internal.?	](# )|
-|1    | [C# provides a default constructor for me. I write a constructor that takes a string as a parameter, but want to keep the no parameter one. How many constructors should I write?	](# )|
-|1    | [What’s the top .NET class that everything is derived from?	](# )|
-|1    | [What does the keyword virtual mean in the method definition?	](# )|
-|1    | [Can you declare the override method static while the original method is non-static?	](# )|
-|1    | [Can you override private virtual methods?	](# )|
+|2    | [How programming work?	](# )|
+|3    | [What is debugging?	](# )|
+|4    | [Name different types errors which can occur during the execution of a program?	](# )|
+|5  | [When a syntax error occurs?	](# )|
+|6    | [When a runtime error occurs?	](# )|
+|7    | [When a logical error occurs? ](# )|
+|8    | [What is flowchart?	](# )|
+|9    | [What is an algorithm?	](# )|
+|10    | [What do you understand by the term 'Maintain and update the Program'? ](# )|
+|11    | [What are variables?	](# )|
+|12    | [What are reserved words?	](# )|
+|13    | [What are Loop?	](# )|
+|14    | [What is the use of FOR…NEXT Loop? ](# )|
+|15    | [What is the use of WHILE…WEND Loop?	](# )|
+|16    | [What is the use of Nested Loop?	](# )|
+|17    | [What is Documentation?	](# )|
+|18    | [What is the working of a compiler?	](# )|
+|19    | [What do we call the binary form of a target language?	](# )|
+|10    | [What are constants?	](# )|
+|21    | [Define Numeric constants.	](# )|
+|22    | [Define String constants.	](# )|
+|23    | [Define Operators.	](# )|
+|24    | [What is an Array?	](# )|
+|25    | [What is subroutine?	](# )|
+|26    | [What is the purpose of arithmetic operators?	](# )|
+|27    | [What is the purpose of relational operators?	](# )|
+|28   | [Define Low-level programming language.	](# )|
+|29    | [Define High-Level programming language.	](# )|
+|30    | [What is Machine code?	](# )|
+|31    | [List some programming languages.	](# )|
+|32    | [What is reliability?	](# )|
+|3503    | [What is modeling language?	](# )|
+|34    | [Name some modeling languages? ](# )|
+|35    | [What is software testing?	](# )|
+|36   | [What is Beta version?	](# )|
+|37    | [What is the working of logical operators?	 ](# )|
+|38    | [What is the purpose of assignment operator? ](# )|
+|39   | [What is analyzing a program?	](# )|
+|40   | [What is the working on an algorithm?	](# )|
+|41    | [How is the division by zero defined?	](# )|
+|42    | [What is the meaning of implementation of a program?	](# )|
+|43    | [What are numeric variables?	](# )|
+|44    | [What are string variables?	](# )|
+|45   | [What are commands?	](# )|
+|46   | [What are statements?	](# )|
+|47    | [What is the execution of a program?	](# )|
+|48    | [Define variable and constant.	](# )|
+|49   | [What is a data type? How many types of data types are there in .NET ?	](# )|
+|50   | [Mention the two major categories that distinctly classify the variables of C# programs.	](# )|
+|51    | [Which statement is used to replace multiple if-else statements in code.	](# )|
+|52    | [What is the syntax to declare a namespace in .NET?	](# )|
+|53    | [Differentiate between the while and for loop in C#.	](# )|
+|54    | [What is an identifier?	](# )|
+|55    | [What does a break statement do in the switch statement?	](# )|
+|56    | [Explain keywords with example.	](# )|
+|57    | [Briefly explain the characteristics of value-type variables that are supported in the C# programming language.	](# )|
+|58    | [What is a parameter? Explain the new types of parameters introduced in C# 4.0.	](# )|
+|59    | [Briefly explain the characteristics of reference-type variables that are supported in the C# programming language.	](# )|
+|60   | [What are the different types of literals?	](# )|
+|61    | [What is the main difference between sub-procedure and function?	](# )|
+|62   | [Differentiate between Boxing and Unboxing. ](# )|
+|63   | [What is C#?	](# )|
+|64    | [What is an Object?	](# )|
+|65   | [What is the difference between a struct and a class in C#?	](# )|
+|66   | [What is the difference between Interface and Abstract Class?	](# )|
+|67   | [What is enum in C#?	](# )|
+|68   | [What is the difference between “continue” and “break” statements in C#?	](# )|
+|69   | [What is the difference between constant and readonly in c#?	](# )|
+|70   | [What is the difference between ref and out keywords?	](# )|
+|71    | [Can “this” be used within a static method?	](# )|	
+|72    | [Define Property in C# .net?	](# )|
+|73   | [What is extension method in c# and how to use them?	](# )|
+|74   | [What is the difference between string and StringBuilder in c#?	](# )|
+|75   | [What are delegates in C# and uses of delegates?	](# )|
+|76   | [What is sealed class in c#?	](# )|
+|77   | [ What are partial classes?	](# )|
+|78   | [ What is IEnumerable<> in c#?	](# )|
+|79   | [ What is difference between late binding and early binding in c#?	](# )|
+|80   | [What are the differences between IEnumerable and IQueryable?	](# )|
+|81    | [What happens if the inherited interfaces have conflicting method names?	](# )|
+|82    | [What are the Arrays in C#.Net?	](# )|
+|83   | [What is the Constructor Chaining in C#?	](# )|
+|84   | [What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?	](# )|
+|85   | [Can Multiple Catch Blocks executed in c#?	](# )|
+|86   | [Difference between Throw Exception and Throw Clause.	](# )|
+|87   | [What is Indexer in C# .Net?	](# )|
+|88   | [What is multicast delegate in c#?	](# )|
+|89   | [Difference between Equality Operator (==) and Equals() Method in C#.	](# )|
+|90   | [Difference between “is” and “as” operator in C#.	](# )|
+|91   | [How to use Nullable<> Types in .Net?	](# )|
+|92   | [Different Ways of Method can be overloaded.	](# )|
+|93   | [What is an Object Pool in .Net?	](# )|
+|94   | [What are generics in c#.net?	](# )|
+|95   | [Describe the accessibility modifiers in c#.Net	](# )|
+|96   | [What is Virtual Method in C#?	](# )|
+|97   | [What is the Difference between Array and ArrayList in C#.Net?	](# )|
+|98   | [What you understand by Value types and Reference types in C#.Net?	](# )|
+|99   | [What is Serialization?	](# )|
+|100   | [What is the use of using statement in C#?	](# )|
+|101  | [What is jagged array in C#.Net?	](# )|
+|102    | [What is Multithreading with .NET?	](# )|
+|103    | [Explain Anonymous type in C#?	](# )|
+|104    | [Explain Hashtable in C#?	](# )|
+|105    | [What is LINQ in C#?	](# )|
+|106    | [What is File Handling in C#.Net?	](# )|
+|107    | [What is Reflection in C#.Net?	](# )|
+|108    | [What is Expression Trees In C#?	](# )|
+|109  | [Differences between Object, Var and Dynamic type?	](# )|
+|110  | [What are OOPS Concepts?	](# )|
+|111    | [How can you implement multiple inheritance in C#?	](# )|
+|112    | [Are private class members inherited to the derived class?	](# )|
+|113    | [When and why to use method overloading	](# )|
+|114    | [Does C# support multiple-inheritance?	](# )|
+|115    | [Where is a protected class-level variable available?	](# )|
+|116    | [Are private class-level variables inherited?	](# )|
+|117    | [Describe the accessibility modifier “protected internal”.	](# )|
+|118    | [Which class is at the top of .NET class hierarchy?	](# )|
+|119    | [What does the term immutable mean?	](# )|
+|120    | [Can you store multiple data types in System.Array?	](# )|
+|121    | [What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?	](# )|
+|122    | [How can you sort the elements of the array in descending order?	](# )|
+|123    | [What’s the .NET collection class that allows an element to be accessed using a unique key? ](# )|
+|124    | [What class is underneath the Sorted List class?	](# )|
+|125    | [Will the finally block get executed if an exception has not occurred?	](# )|
+|126    | [What’s the C# syntax to catch any possible exception?	](# )|
+|127    | [Can multiple catch blocks be executed for a single try statement?	](# )|
+|128    | [Explain the three services model commonly know as a three-tier application?	](# )|
+|129    | [What is the syntax to inherit from a class in C#?	](# )|
+|130    | [Can you prevent your class from being inherited by another class?	](# )|
+|131    | [Can you allow a class to be inherited, but prevent the method from being over-ridden?	](# )|
+|132    | [When do you absolutely have to declare a class as abstract?	](# )|
+|133    | [Why can’t you specify the accessibility modifier for methods inside the interface?	 ](# )|
+|134    | [Can you inherit multiple interfaces?	](# )|
+|135    | [ What happens if you inherit multiple interfaces and they have conflicting method names? ](# )|
+|136    | [What’s the implicit name of the parameter that gets passed into the set method/property of a class?	](# )|
+|137    | [Can you declare an override method to be static if the original method is not static?	](# )|
+|138    | [What are the different ways a method can be overloaded?	](# )|
+|139    | [If a base class has a number of overloaded constructors, and an inheriting class has a number of overloaded constructors; can you enforce a call from an inherited constructor to a specific base constructor?	](# )|
+|140    | [ What’s the implicit name of the parameter that gets passed into the class’ set method?	](# )|
+|141    | [How do you inherit from a class in C#?	](# )|
+|142    | [Does C# support multiple inheritance?	](# )|
+|143    | [ When you inherit a protected class-level variable, who is it available to?	](# )|
+|144    | [ Are private class-level variables inherited?	](# )|
+|145    | [ Describe the accessibility modifier protected internal.?	](# )|
+|146    | [C# provides a default constructor for me. I write a constructor that takes a string as a parameter, but want to keep the no parameter one. How many constructors should I write?	](# )|
+|147    | [What’s the top .NET class that everything is derived from?	](# )|
+|148    | [What does the keyword virtual mean in the method definition?	](# )|
+|149    | [Can you declare the override method static while the original method is non-static?	](# )|
+|150    | [Can you override private virtual methods?	](# )|
 |1    | [When do you absolutely have to declare a class as abstract (as opposed to free-willed educated choice or decision based on UML diagram)?	](# )|
 |1    | [Why can’t you specify the accessibility modifier for methods inside the interface?	](# )|
 |1    | [And if they have conflicting method names?	](# )|
