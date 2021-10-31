@@ -568,7 +568,7 @@ Identifiers are northing but names given to various entities uniquely identified
 ### Question: What does a break statement do in the switch statement?
 
 The switch statement is a selection control statement that is used to handle multiple choices and transfer control to the case statements within its body. The following code snippet shows an example of the use of the switch statement in C#: 
-
+```
 switch(choice) 
 { 
  case 1: 
@@ -581,7 +581,7 @@ switch(choice)
  console.WriteLine(Wrong choice); 
  break; 
 } 
- 
+ ```
 In switch statements, the break statement is used at the end of a case statement. The break statement is mandatory in C# and it avoids the fall through of one case statement to another.
 
 ### Question: Explain keywords with example.
@@ -610,7 +610,7 @@ ii.Enumerations - Consists of a set of named constants.
 Give the syntax of using the while loop in a C# program.
 
 The syntax of using the while loop in C# is: 
-
+```
 int i = 0; 
 
 while(i < 5) //condition 
@@ -622,7 +622,7 @@ Console.WriteLine({ 0 }, i); //statements
 i++; 
 
 } 
-
+```
 
 o/p: 0 1 2 3 4
 
@@ -728,7 +728,7 @@ When a value type is converted to an object type, the process is known as boxing
 Boxing and unboxing enable value types to be treated as objects. Boxing a value type packages it inside an instance of the Object reference type. This allows the value type to be stored on the garbage collected heap. Unboxing extracts the value type from the object. In this example, the integer variable iis  boxed and assigned to object obj. 
 
 Boxing Example:
-
+```
 public void function1()
 
 {int i =111; object o = i;//implicit unboxing
@@ -744,7 +744,7 @@ public void function1()
 int i = (int)o;//explicit unboxing
 
 console.writeline(i);   }
-
+```
 # CSharp (C#) 
 
 ### Question: What is C#?
@@ -777,7 +777,7 @@ Struct
 
 • A structure can't be abstract.
 
-• No need to create object by new keyword.
+• No need to create object by using new keyword.
 
 • Do not have permission to create any default constructor.
 
@@ -791,7 +791,7 @@ Class
 
 • A class can be abstract type.
 
-• We can’t use an object of a class with using new keyword.
+• We can’t use an object of a class with out using new keyword.
 
 • We can create a default constructor.
 
@@ -809,7 +809,7 @@ An interface is not a class. It is an entity that is defined by the word Interfa
 When we create an interface, we are basically creating a set of methods without any implementation that must be overridden by the implemented classes. The advantage is that it provides a way for a class to be a part of two classes: one from inheritance hierarchy and one from the interface.
 
 When we create an abstract class, we are creating a base class that might have one or more completed methods but at least one or more methods are left uncompleted and declared abstract. If all the methods of an abstract class are uncompleted then it is same as an interface. The purpose of an abstract class is to provide a base class definition for how a set of derived classes will work and then allow the programmers to fill the implementation in the derived classes.
-
+```
   interface ISampleInterface
     {        void SampleMethod();     }
     class ImplementationClass : ISampleInterface
@@ -824,7 +824,7 @@ When we create an abstract class, we are creating a base class that might have o
             obj.SampleMethod();
         }    }
 
-
+```
 
 Feature
 Interface
@@ -894,7 +894,7 @@ another type even though the underlying value of their members is the same.
 Using break statement, you can 'jump out of a loop' whereas by using continue statement, you can 'jump over one iteration' and then resume your loop execution.
 
 Break Statement Example-
-
+```
 using System;
 
 using System.Collections;
@@ -922,7 +922,7 @@ Console.ReadLine(“The number is” + i);
 }
 }
 }
-
+```
 Output:
 The number is 0;
 The number is 1;
@@ -930,7 +930,7 @@ The number is 2;
 The number is 3;
 
 Continue Statement Example
-
+```
 using System;
 
 using System.Collections;
@@ -967,7 +967,7 @@ Console.ReadLine(“The number is” +i);
 }
 } 
 }
-
+```
 Output:
 
 The number is 1;
